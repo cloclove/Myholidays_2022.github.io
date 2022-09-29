@@ -1,0 +1,115 @@
+h1
+ {
+	text-align: center;
+	font-family:'Andale Mono', monospace;
+ }
+ 
+ h2 {font-family:'Andale Mono', monospace;}
+ 
+ nav {overflow:hidden; background-color: #00394d;}
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:  #002633;
+display:flex;
+float:right;
+flex-direction:row;
+}
+li a {
+  display: inline;
+  margin: 5;
+   float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#logo
+{
+	width: 10%;
+	
+}
+
+.ville
+{
+display:flex;
+flex-direction:row;
+margin:40px;
+}
+
+aside
+{
+text-align:center;
+}
+
+footer
+{
+text-align:center;
+}
+aside > p {
+    margin: .5rem;
+}
+li a:hover {
+    background-color: #001820;
+    color:#04AA6D;
+}
+
+.header2
+{
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ margin:5px;
+
+}
+ .header1 {margin:20px; }
+
+.center {width:25%; margin-right:3em;}
+
+
+body {font-family: 'Helvetica', sans-serif;
+background-image:url('https://img.freepik.com/vecteurs-libre/fond-ete-dessine-main_23-2149385464.jpg?w=1060&t=st=1663923359~exp=1663923959~hmac=ed8b8966e164e8888908ef674f0b07feef6c4abe9c8c55a7958c863156609b7f');
+background-size: initial;
+background-repeat:no repeat;}
+
+.presentation {border-radius: 30px; background: rgb(0,135,176);
+background: linear-gradient(178deg, #009bcc 0%, rgba(220,198,182,1) 33%, rgba(99,76,67,1) 97%); }
+article { text-align:center;}
+ .Paris { width:33%; margin:20px;}
+ .Lyon { width:33%; margin:20px;}
+ .Dunkerque { width:33%; margin:20px;}
+.imgville {width:70%; margin:20px;}
+.imgville:hover {transform: scale(1.2); transition:  0.9s; margin:10px;}
+  
+
+.button { display: inline;
+  margin: 5px;
+   float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  overflow:hidden; background-color: #00394d; margin-left:10em;}
+.button2 { display: inline;
+  margin: 5px;
+   float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  overflow:hidden; background-color: #00394d; margin-left:10em; width:30%;}
+  .button2:hover {background-color:#04AA6D;color:black; transform: scale(1.1); transition:  0.8s; }
+  .button:hover {background-color:#04AA6D;color:black; transform: scale(1.1); transition:  0.8s; }
+
+.titre1 {text-align:center;}
+.event1 {background-color:white;width: 30%; border-radius:10px; }
+.section2 {display:flex; flex-direction:row; justify-content: space-around;}
+.Newsletter{ border-radius:10px; width:30%; padding:2em; }
+form {display:flex; flex-direction:column;}
+.email {margin:10px; width:45%; margin-left:10em;}
